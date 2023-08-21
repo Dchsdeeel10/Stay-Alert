@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimary</item>
+    <item name="colorAccent">@color/colorPrimary</item>
+
+
+
+</style>
+
+<style name="AppTheme2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+<!-- Customize your theme here. -->
+<item name="colorPrimary">@color/colorPrimaryDark</item>
+<item name="colorPrimaryDark">@color/colorPrimary</item>
+<item name="colorAccent">@color/colorPrimary</item>
+</style>
+
+    <style name="colored_checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/holo_red_light</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="android:title">#fff</item>
+    </style>
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Add attributes here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAppearanceButton">@style/AppTextAppearance.Button</item>
+    </style>
+    <!--To fix rendering in preview -->
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="iconSize">5dp</item>
+        <item name="android:textSize">@dimen/_8ssp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    
+</resources>
